@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vac_georef.controller.CentralViewController">
+   <children>
+      <Button fx:id="leftButton" alignment="CENTER" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#handleLeftButtonOnPressed" text="Précédant">
+         <HBox.margin>
+            <Insets right="20.0" />
+         </HBox.margin>
+      </Button>
+      <StackPane id="stackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0">
+         <children>
+            <ImageView fitHeight="450.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../testLFBO/test1CarteVAC.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+         </children>
+      </StackPane>
+      <Button fx:id="rightButton" alignment="CENTER" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#handleRightButtonOnPressed" text="Suivant">
+         <HBox.margin>
+            <Insets left="20.0" />
+         </HBox.margin>
+      </Button>
+   </children>
+</HBox>

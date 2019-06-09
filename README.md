@@ -1,3 +1,10 @@
+## Objectifs
+Ce projet sous licence libre apache à été réalisé en groupe par 4 étudiants de l'école nationale de l'aviation civile (ENAC) et à pour objectif de pouvoir extraires les cartes d'approches et d'attérrissages contenues dans les cartes VAC qui sont des fichiers pdf fournis par le service d'information aéronautique (SIA) à destination des acteurs du transport aérien. 
+Les cartes sont extraites au format PNG et sont accompagnées de données de géoréférencement permettant de les intégrer facilement dans un logiciel de visualisation radar (ou dans même dans google map :)).
+
+## Utilisation
+Vous pouvez télécharger directement le fichier v2.jar ou bien le recréer à partir des sources
+
 ## Données d’entrée
 Utiliser les différentes cartes VAC sous format PDF. Ces cartes sont disponibles dans le dossier VAC des sources de ce projet.
 

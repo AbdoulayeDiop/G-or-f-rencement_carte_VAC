@@ -3,7 +3,7 @@ Ce projet sous licence libre apache à été réalisé en groupe par 4 étudiant
 Les cartes sont extraites au format PNG et sont accompagnées de données de géoréférencement permettant de les intégrer facilement dans un logiciel de visualisation radar (ou dans même dans google map).
 
 ## Utilisation
-Vous pouvez télécharger directement le fichier v2.jar ou bien le recréer à partir des sources
+Vous pouvez télécharger directement le fichier <a href ="https://github.com/AbdoulayeDiop/Georferencement_carte_VAC/raw/master/v2.jar">.jar</a> ou bien le recréer à partir des <a href ="https://github.com/AbdoulayeDiop/Georferencement_carte_VAC">sources</a>
 
 ## Données d’entrée
 Utiliser les différentes cartes VAC sous format PDF. Ces cartes sont disponibles dans le dossier VAC des sources de ce projet.
